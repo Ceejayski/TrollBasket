@@ -1,0 +1,80 @@
+.bg-grey {
+  background-color: #f9fafc;
+}
+
+.img-file-details {
+  width: 312px;
+  height: 206px;
+  margin: 0 auto;
+}
+
+.text-details {
+  .product-name {
+    color: #212c3d !important;
+    line-height: 21px;
+    font-size: 14px !important;
+  }
+
+  .description-details {
+    font-family: "Noto-Sans-JP-light", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    width: 100%;
+    line-height: 21px !important;
+    font-size: 12px !important;
+    color: #627483;
+  }
+
+  .price-details {
+    p {
+      font-size: 16px !important;
+      font-weight: 700;
+      color: #212c3d;
+
+      span {
+        font-size: 12px !important;
+        font-weight: 400;
+        color: #627483;
+      }
+    }
+  }
+}
+
+.product-desc-link {
+  border-top: 3px solid #f9fafc;
+  border-bottom: 3px solid #f9fafc;
+
+  p {
+    font-size: 14px !important;
+    line-height: 21px !important;
+    color: #212c3d;
+  }
+}
+
+.review-star,
+.rating {
+  font-size: 12px !important;
+  span {
+    color: #ffca42;
+    font-size: 12px !important;
+  }
+}
+
+.review-text-desc {
+  font-size: 12px !important;
+  line-height: 21px;
+  color: #627483;
+}
+
+.reviewer {
+  font-size: 12px !important;
+  color: #212c3d;
+  margin-bottom: 100px;
+}
+
+.w-48 {
+  width: 48% !important;
+}
+
+.alert-div {
+  top: -20px;
+}

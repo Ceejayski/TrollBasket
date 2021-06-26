@@ -1,0 +1,50 @@
+@font-face {
+  font-family: "Noto-Sans-JP-light";
+  src: url("../../assets/font/NotoSansJP-Light.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "Noto-Sans-JP-Bold";
+  src: url("../../assets/font/NotoSansJP-Bold.otf") format("truetype");
+}
+
+.mb-4px {
+  margin-bottom: 4px;
+}
+
+.img-file {
+  img {
+    height: 98px;
+  }
+}
+
+.description {
+  width: 100%;
+  p {
+    font-family: "Noto-Sans-JP-light", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    width: 100%;
+    line-height: 15px;
+    font-size: 10px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #718596;
+  }
+}
+
+.price {
+  font-family: "Noto-Sans-JP-Bold", Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  line-height: 18px;
+  font-size: 12px;
+}
+
+.stock {
+  font-family: "Noto-Sans-JP-light", Arial, Helvetica, sans-serif;
+  color: #718596;
+  line-height: 15px;
+  font-size: 10px;
+}
