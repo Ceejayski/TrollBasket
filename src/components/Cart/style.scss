@@ -1,0 +1,57 @@
+.cart-maindiv {
+  .btn-font {
+    font-size: 16px !important;
+  }
+
+  .cart-btn {
+    height: 51px;
+    border-top: 1px solid #f6f2f2;
+
+    .delete-btn {
+      .material-icons {
+        color: #e25959;
+        font-size: 20px;
+      }
+    }
+  }
+
+  .cart-img {
+    width: 48px;
+    height: 48px;
+    margin-right: 1rem;
+  }
+
+  .cart-text-detail {
+    font-size: 14px !important;
+    color: #212c3d;
+
+    .cart-price {
+      font-weight: 700;
+    }
+  }
+
+  .quantity-btn {
+    button {
+      width: 28px;
+      height: 28px;
+      border-radius: 50%;
+      background-color: transparent;
+      border: 0.7px solid #123cd3;
+
+      span {
+        font-size: 12px !important;
+        color: #123cd3;
+      }
+    }
+
+    button:disabled,
+    button[disabled] {
+      border: 0.7px solid #ccc;
+
+      span {
+        font-size: 12px !important;
+        color: #ccc;
+      }
+    }
+  }
+}

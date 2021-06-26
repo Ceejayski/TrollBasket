@@ -1,0 +1,45 @@
+.checkout-body {
+  background-color: #227eff;
+  height: 100vh;
+  padding-top: 30%;
+
+  .darkblue-circle {
+    margin: 0 auto;
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    background-color: #0350bb;
+    padding-top: 14.5px;
+
+    .green-circle {
+      background-color: #46bcaa;
+      margin: 0 auto;
+      height: 111.24px;
+      width: 107.56px;
+      border-radius: 50%;
+
+      .material-icons {
+        color: #fff;
+        font-size: 50px;
+        line-height: 111.24px;
+        margin-left: 28.78px;
+      }
+    }
+  }
+
+  .first-text {
+    font-size: 24px !important;
+    font-weight: 700 !important;
+  }
+
+  .scnd-text {
+    font-size: 14px !important;
+    font-weight: 400 !important;
+  }
+  .got-it {
+    width: 343px !important;
+    margin: 70% auto 0;
+    font-size: 16px;
+    color: #227eff !important;
+  }
+}
